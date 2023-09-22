@@ -8,6 +8,7 @@ public class Main {
     public static void main(String[] args) throws IOException {
 
         String asciiArt = FigletFont.convertOneLine("Hello world");
+        System.out.println("Hello again");
         System.out.println(asciiArt);
     }
 }
